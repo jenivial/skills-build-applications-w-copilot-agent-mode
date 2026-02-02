@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'octofit_tracker',
     'rest_framework',
     'djongo',
     'corsheaders',
@@ -64,7 +63,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'octofit_tracker.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
@@ -82,7 +81,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'octofit_tracker.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database
